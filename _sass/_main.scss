@@ -326,11 +326,68 @@ ul.topbar {
 		text-align: center;
 	}
 }
+
+/*
+task bar
+*/
+.taskbar {
+  position:fixed;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  height: 26px;
+  background:#c0c0c0;
+  border: outset 2px;
+
+  .start {
+    cursor: pointer;
+    position:absolute;
+    top: 1px;
+    bottom: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 2px 5px;
+    padding-left: 26px;
+
+    img {
+      position:absolute;
+      top: 3px;
+      bottom: 3px;
+      left: 2px;
+      height: 14px;
+    }
+  }
+
+  .time {
+    position:absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    border:inset 2px;
+    font-size: 14px;
+    padding: 2px 7px;
+  }
+}
+
+.startNotclicked {
+  border:outset 2px;
+}
+
+.startClicked {
+  border-top: inset 2px black;
+  border-left: inset 2px black;
+  border-bottom: inset 2px white;
+  border-right: inset 2px white;
+}
+
+/*
+copy right issue text
+*/
 .copy-right-issue {
     color: #dadada;
     position: absolute;
     right: 5px;
-    bottom: 5px;
+    bottom: 35px;
     text-align: right;
     line-height: 20px;
     font-size: 15px;
