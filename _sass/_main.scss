@@ -13,6 +13,7 @@ body {
 	border-color: #fff8ff #000000 #000000 #fff8ff;
 	padding: 2px 0;
 }
+
 .default_title, .post_title {
 	padding: 2px 4px 3px 4px;
 	position: relative;
@@ -30,6 +31,7 @@ body {
 		margin: 0 3px 0 0;
 	}
 }
+
 .default_title {
     .btn {
         position: relative;
@@ -59,6 +61,7 @@ body {
         height: 10px;
     }
 }
+
 .post_title {
 	h1 {
 		display: inline-block;
@@ -103,6 +106,7 @@ body {
 		height: 10px;
 	}
 }
+
 ul.topbar {
 	list-style: none;
 	padding: 0 10px;
@@ -117,12 +121,14 @@ ul.topbar {
 		color: #000000;
 	}
 }
+
 .post_list, .tag_list, .post_content {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
 }
+
 .post_list {
 	width: 70.2%;
 	margin: 0 auto;
@@ -156,6 +162,7 @@ ul.topbar {
 		}
 	}
 }
+
 .tag_list {
 	width: 28%;
 	margin: 0 auto;
@@ -184,21 +191,26 @@ ul.topbar {
 		}
 	}
 }
+
 #tag-list {
     background:transparent url(/assets/img/pixel-alt.png) repeat-y 15px 0;
 }
+
 #tag-list li {
     padding:0 0 0 2px;
 }
+
 #tag-list li a {
     background: #fff8ff;
     display:block;
 }
+
 #tag-list li ul li {
     background:transparent url(/assets/img/pixel-alt.png) repeat-x 0 8px;
     margin:4px 0 4px 13px;
     padding:0 0 0 20px;
 }
+
 .post_total {
 	.left, .right {
 		border: 1px solid;
@@ -215,6 +227,7 @@ ul.topbar {
 		margin-right: 2px;
 	}
 }
+
 .post_content {
 	position: relative;
 	width: 98.5%;
@@ -314,17 +327,19 @@ ul.topbar {
 		margin-bottom: 15px;
 	}
 }
+
 .hljs {
 	background: #fff8ff;
 }
-.footer {
-	font-size: 20px;
-	margin: 30px 0 0 0;
 
-	p {
-        color: #dadada;
-		text-align: center;
-	}
+.signature {
+  float: right;
+  padding: 0 3px 0 0;
+
+  p {
+    text-align: right;
+    word-break: keep-all;
+  }
 }
 
 /*
@@ -392,15 +407,23 @@ copy right issue text
     line-height: 20px;
     font-size: 15px;
 }
-.signature {
-	float: right;
-	padding: 0 3px 0 0;
 
-	p {
-		text-align: right;
-		word-break: break-word;
-	}
+/*
+blue screen
+*/
+.bluescreen {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-image: url("/assets/img/bluescreen.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
+
 @media only screen and (max-width: 900px) {
     .content {
         width: 90%;

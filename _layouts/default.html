@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- loading 3rd party CSS libraries -->
 	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
+	<link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
     {% if page.title or page.title == 'me' %}
         <title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/002.css">
@@ -12,13 +18,13 @@
         <title>{{ site.name }}</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/001.css">
     {% endif %}
-	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
 	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
-	<script src="/assets/js/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
 </head>
+
 <body>
+    <!-- Hard disk area -->
 	<div class="wrapper">
 		<div class="default_title">
 			<img src="/assets/img/mycomputer.png" />
@@ -70,6 +76,8 @@
 			<div class="right">&nbsp;</div>
 		</div>
 	</div>
+
+    <!-- File content display area -->
 	{% if page.title %}
         <div class="content">
 			<div class="post_title">
@@ -90,24 +98,30 @@
 			</div>
 		</div>
     {% endif %}
-	<script src="/assets/js/jquery-3.3.1.min.js"></script>
-	<script src="/assets/js/button-function.js"></script>
-	<script src="/assets/js/code-line-number.js"></script>
-	<script src="/assets/js/task-bar.js"></script>
-	<!--<script src="/assets/js/console.js"></script>-->
-	<div class="footer">
-        <p>
-            <!-- nothing in footer... yet -->
-        </p>
-    </div>
+
+    <!-- taskbar area -->
     <div class="taskbar">
-        <div class="start startNotclicked"><img src="http://brightok.net/chickasaw/images/windows.gif" />Start</div>
+        <div class="start startNotclicked"><img src="/assets/img/windows.gif" />Start</div>
         <div class="time">12:05PM</div>
     </div>
+
+    <!-- copy right issue area -->
     <div class="copy-right-issue">
         <div>Windows 95</div>
         <div>Build 0626</div>
         <div>This copy of Windows is not genuine</div>
     </div>
+
+    <!-- blue screen area -->
+    <div class="bluescreen"></div>
+
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/button-function.js"></script>
+    <script src="/assets/js/code-line-number.js"></script>
+    <script src="/assets/js/task-bar.js"></script>
+    <!--<script src="/assets/js/console.js"></script>-->
 </body>
+
 </html>
