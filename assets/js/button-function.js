@@ -11,7 +11,7 @@ $(document).ready(function() {
   const bluescreen = document.getElementsByClassName('bluescreen')[0];
 
   // add click event to all buttons
-  question.addEventListener('click', bluescreenClick, false);
+  question.addEventListener('click', questionClick, false);
   start.addEventListener('click', startBtnClick, false);
   bluescreen.addEventListener('click', bluescreenClick, false);
 
@@ -55,6 +55,11 @@ function minimizeClick () {
 function startBtnClick() {
   $('.bluescreen').show();
   $('.bluescreen').addClass('animated zoomIn');
+}
+
+// question button
+function questionClick() {
+  // TODO
 }
 
 // blue screen
