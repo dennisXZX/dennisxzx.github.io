@@ -1,28 +1,29 @@
 $(document).ready(function () {
-  // startTime();
+  // start the system clock
+  startTime();
+
+  // add start button click effect
   $('.start').click(function () {
     $(this).toggleClass('startNotclicked');
     $(this).toggleClass('startClicked');
   });
 });
 
-//
-// function startTime() {
-//   var today = new Date();
-//   var h = today.getHours();
-//   var m = today.getMinutes();
-//   var s = today.getSeconds();
-//   // add a zero in front of numbers<10
-//   m = checkTime(m);
-//   s = checkTime(s);
-//   var hd = h;
-//   $('#clock').html((hd = 0 ? "12" : hd > 12 ? hd - 12 : hd) + ":" + m + " " + (h < 12 ? "AM" : "PM"));
-//   t = setTimeout(function () { startTime() }, 500);
-// }
-//
-// function checkTime(i) {
-//   if (i < 10) {
-//     i = "0" + i;
-//   }
-//   return i;
-// }
+
+function startTime() {
+  // get the current hour and minute
+  const today = new Date();
+  let hour = today.getHours();
+  let minute = today.getMinutes() ;
+
+  // format the hour and minute
+  hour = hour === 0 ? "12" :
+         hour > 12 ? hour - 12 : hour;
+  minute = minute < 10 ? "0" + minute : minute;
+
+  $('.time').html(
+    hour + ":" + minute + " " + (hour < 12 ? "AM" : "PM")
+  );
+
+  setTimeout(() => { startTime() }, 1000);
+}
