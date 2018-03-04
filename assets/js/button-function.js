@@ -59,7 +59,8 @@ function startBtnClick() {
 
 // question button
 function questionClick() {
-  // TODO
+  $('.content').hide();
+  $('.wrapper').addClass('animated hinge');
 }
 
 // blue screen
