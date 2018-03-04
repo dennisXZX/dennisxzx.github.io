@@ -424,6 +424,14 @@ blue screen
   background-size: cover;
 }
 
+// change the zoomIn animation speed on animate.css
+.zoomIn {
+  -webkit-animation: zoomIn .2s; /* Safari 4+ */
+  -moz-animation:    zoomIn .2s; /* Fx 5+ */
+  -o-animation:      zoomIn .2s; /* Opera 12+ */
+  animation:         zoomIn .2s; /* IE 10+, Fx 29+ */
+}
+
 @media only screen and (max-width: 900px) {
     .content {
         width: 90%;
