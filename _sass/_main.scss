@@ -349,6 +349,7 @@ desktop shortcuts
 */
 
 .my-pc {
+  display: none;
   position: absolute;
   top: 20px;
   left: 35px;
@@ -428,6 +429,7 @@ task bar
 copy right issue text
 */
 .copy-right-issue {
+  z-index: -1;
   cursor: default;
   color: #dadada;
   position: absolute;
@@ -462,6 +464,9 @@ blue screen
   animation: zoomIn .2s; /* IE 10+, Fx 29+ */
 }
 
+/*
+CSS styling for responsive design
+*/
 @media only screen and (max-width: 900px) {
   .content {
     width: 90%;
@@ -553,6 +558,12 @@ blue screen
     .left {
       width: 33%;
     }
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .my-pc {
+    display: block;
   }
 }
 
