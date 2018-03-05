@@ -353,7 +353,6 @@ desktop shortcuts
   position: absolute;
   top: 20px;
   left: 35px;
-  cursor: pointer;
 
   a {
     text-decoration: none;
@@ -365,6 +364,8 @@ desktop shortcuts
   }
 
   .my-pc {
+    cursor: pointer;
+
     .my-pc-text {
       color: #d1d5da;
       position: relative;
@@ -375,6 +376,7 @@ desktop shortcuts
 
   .angular {
     margin-top: 25px;
+    cursor: pointer;
 
     .angular-text {
       color: #d1d5da;
@@ -385,6 +387,7 @@ desktop shortcuts
 
   .react {
     margin-top: 25px;
+    cursor: pointer;
 
     .react-text {
       color: #d1d5da;
