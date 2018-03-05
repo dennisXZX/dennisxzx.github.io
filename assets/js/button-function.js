@@ -4,16 +4,28 @@
 
 // retrieve DOM elements
 $(document).ready(function() {
+  // retrieve button DOM
   const max = document.getElementsByClassName('btn_max')[0];
   const min = document.getElementsByClassName('btn_min')[0];
   const question = document.getElementsByClassName('btn_question')[0];
   const start = document.getElementsByClassName('start')[0];
   const bluescreen = document.getElementsByClassName('bluescreen')[0];
 
+  // retrieve desktop shortcut DOM
+  const myPc = document.getElementsByClassName('my-pc')[0];
+  const angular = document.getElementsByClassName('angular')[0];
+  const react = document.getElementsByClassName('react')[0];
+
   // add click event to all buttons
   question.addEventListener('click', questionClick, false);
   start.addEventListener('click', startBtnClick, false);
   bluescreen.addEventListener('click', bluescreenClick, false);
+  myPc.addEventListener('mouseover', () => { $('.my-pc-text').addClass('animated tada') }, false);
+  myPc.addEventListener('mouseout', () => { $('.my-pc-text').removeClass('animated tada') }, false);
+  angular.addEventListener('mouseover', () => { $('.angular-text').addClass('animated tada') }, false);
+  angular.addEventListener('mouseout', () => { $('.angular-text').removeClass('animated tada') }, false);
+  react.addEventListener('mouseover', () => { $('.react-text').addClass('animated tada') }, false);
+  react.addEventListener('mouseout', () => { $('.react-text').removeClass('animated tada') }, false);
 
   if (max && min) {
     max.addEventListener('click', maximizeClick, false);
