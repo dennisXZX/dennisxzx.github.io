@@ -14,7 +14,8 @@ function startTime() {
   // get the current hour and minute
   const today = new Date();
   let hour = today.getHours();
-  let minute = today.getMinutes() ;
+  let minute = today.getMinutes();
+  const isAM = hour < 12;
 
   // format the hour and minute
   hour = hour === 0 ? "12" :
@@ -22,7 +23,7 @@ function startTime() {
   minute = minute < 10 ? "0" + minute : minute;
 
   $('.time').html(
-    hour + ":" + minute + " " + (hour < 12 ? "AM" : "PM")
+    hour + ":" + minute + " " + (isAM ? "AM" : "PM")
   );
 
   setTimeout(() => { startTime() }, 1000);
