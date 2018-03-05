@@ -348,7 +348,7 @@ ul.topbar {
 desktop shortcuts
 */
 
-.my-pc {
+.short-cut-wrapper {
   display: none;
   position: absolute;
   top: 20px;
@@ -364,11 +364,31 @@ desktop shortcuts
     height: 50px;
   }
 
-  .my-pc-text {
-    color: #d1d5da;
-    position: relative;
-    left: -15px;
-    top: 5px;
+  .my-pc {
+    .my-pc-text {
+      color: #d1d5da;
+      position: relative;
+      left: -15px;
+      top: 5px;
+    }
+  }
+
+  .angular {
+    margin-top: 25px;
+
+    .angular-text {
+      color: #d1d5da;
+    }
+  }
+
+  .react {
+    margin-top: 25px;
+
+    .react-text {
+      color: #d1d5da;
+      position: relative;
+      left: 7px;
+    }
   }
 }
 
@@ -562,7 +582,7 @@ CSS styling for responsive design
 }
 
 @media only screen and (min-width: 1250px) {
-  .my-pc {
+  .short-cut-wrapper {
     display: block;
   }
 }
