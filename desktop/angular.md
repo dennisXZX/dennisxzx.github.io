@@ -5,4 +5,8 @@ title: me
 
 # Angular Projects
 
-https://www.stake.com.au/
+<ul>
+    <li>
+        <a href="https://www.stake.com.au/" target="_blank">Stake</a>
+    </li>
+</ul>
