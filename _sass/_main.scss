@@ -331,10 +331,6 @@ ul.topbar {
   }
 }
 
-.hljs {
-  background: #fff8ff;
-}
-
 .signature {
   float: right;
   padding: 0 3px 0 0;
@@ -343,6 +339,10 @@ ul.topbar {
     text-align: right;
     word-break: keep-all;
   }
+}
+
+.project-list {
+    font-size: 18px;
 }
 
 /*
