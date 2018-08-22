@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <!-- desktop shortcut -->
+    <!-- desktop shortcuts -->
     <div class="short-cut-wrapper">
         <div class="my-pc">
             <a href="/desktop/about">
@@ -54,8 +54,8 @@
 		</div>
     </div>
 
+	<!-- Hard disk area -->
 	<div class="wrapper">
-        <!-- Hard disk area -->
 		<div class="default_title">
 			<img src="/assets/img/mycomputer.png" />
 			{% if page.tag %}
@@ -129,7 +129,7 @@
 		</div>
     {% endif %}
 
-    <!-- taskbar area -->
+    <!-- task bar area -->
     <div class="taskbar">
         <div class="start startNotclicked"><img src="/assets/img/windows.gif" />Start</div>
         <div class="time"></div>
@@ -145,11 +145,26 @@
     <!-- blue screen area -->
     <div class="bluescreen"></div>
 
+	<!-- credits view -->
+	<div id="credits-wrapper" @click="closeCredits">
+		<div class="movie-credit">
+			<div class='movie'>The Computer Programmer's Poem - Longest Poem ever written‎</div>
+            <div class='name'></div>
+            <div class='job'>Line 1: Reading poetry is a lot of fun</div>
+            <div class='name'></div>
+            <div class='job'>Line 2: Now go back to line number one</div>
+            <div class='name'></div>
+            <div class='name'></div>
+            <div class='movie'>The End‎</div>
+		</div>
+	</div>
+
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/js/button-function.js"></script>
     <script src="/assets/js/task-bar.js"></script>
     <script src="/assets/js/random-joke.js"></script>
     <script src="/assets/js/console.js"></script>
+    <script src="/assets/js/credits-view.js"></script>
 </body>
 
 </html>
