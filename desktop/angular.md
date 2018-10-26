@@ -7,6 +7,6 @@ title: me
 
 <ul class="project-list">
     <li>
-        <a href="https://www.stake.com.au/" target="_blank">Stake</a>
+        <a href="https://www.stake.com.au/" target="_blank">Stake</a> (Ionic 3.0, Typescript)
     </li>
 </ul>
