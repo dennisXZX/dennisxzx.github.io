@@ -410,12 +410,14 @@ desktop shortcuts
   
   .sorak {
     margin-top: 25px;
+    border-radius: 50%;
     cursor: pointer;
 
     .sorak-text {
       color: #d1d5da;
       position: relative;
-      left: 13px;
+      left: -22px;
+      margin-top: 10px;
     }
   }  
 }
