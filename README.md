@@ -1,9 +1,15 @@
 ## Personal website V3
 
-Powered by jekyll
+Powered by Jekyll
 
 #### Steps
-- make sure you have Ruby 2.1.0 or higher installed
-- run `gem install bundler` to install bundler
-- run `bundle install` to install project dependencies
-- run `bundle exec jekyll serve` to run the app server
+
+- **Ruby**: Use Ruby 3.x (e.g. via Homebrew). System Ruby 2.6 on macOS can hit permission and native gem build issues.
+  - Install: `brew install ruby`
+  - Use it for this project: `export PATH="/opt/homebrew/opt/ruby/bin:$PATH"`
+- Install Bundler (if needed): `gem install bundler`
+- Install dependencies: `bundle install` (gems go into `vendor/bundle`)
+- Run the site: `bundle exec jekyll serve`
+- Open: **http://127.0.0.1:4000/**
+
+`_config.yml` excludes `vendor` and `.gem` so Jekyll only builds from the site source.

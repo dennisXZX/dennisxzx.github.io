@@ -1,3 +1,9 @@
 .idea/*
 _site/
 .DS_Store
+
+# Bundler / local Ruby
+vendor/
+.bundle/
+.gem/
+Gemfile.lock.bak
