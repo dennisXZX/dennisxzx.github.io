@@ -404,6 +404,18 @@ desktop shortcuts
   left: 13px;
 }
 
+.short-cut-wrapper .cursor {
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.short-cut-wrapper .cursor .cursor-text {
+  color: #d1d5da;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
 .short-cut-wrapper .sorak {
   margin-top: 25px;
   cursor: pointer;
