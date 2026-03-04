@@ -118,7 +118,7 @@
 				<div class="btn btn_min"><span class="fa fa-window-minimize"></span></div>
 			</div>
 			<ul class="topbar">
-				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+				<li>{% if page.dynamic_date %}<span id="dynamic-date"></span>{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</li>
 			</ul>
 			<div class="post_content">
         		{{ content }}
@@ -165,6 +165,7 @@
     <script src="/assets/js/random-joke.js"></script>
     <script src="/assets/js/console.js"></script>
     <script src="/assets/js/credits-view.js"></script>
+    <script src="/assets/js/dynamic-date.js"></script>
 </body>
 
 </html>
