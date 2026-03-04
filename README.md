@@ -1,4 +1,4 @@
-## Personal website V3
+## Personal website
 
 Powered by Jekyll
 
