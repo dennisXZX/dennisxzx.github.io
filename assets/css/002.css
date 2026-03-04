@@ -1,0 +1,10 @@
+@import url("reset.css");
+@import url("main.css");
+
+.default_title {
+  background: #808080;
+}
+
+.post_title {
+  background: #00007f;
+}
