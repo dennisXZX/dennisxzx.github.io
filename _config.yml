@@ -9,7 +9,7 @@ google_verification: null
 
 
 # File management
-include: [".htaccess"]
+include: []
 exclude: ["README.md", "LICENSE", "vendor", ".gem", "Gemfile.lock.bak"]
 
 # Markdown
