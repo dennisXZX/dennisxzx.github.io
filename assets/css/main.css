@@ -338,6 +338,7 @@ ul.topbar a {
 
 .project-list {
   font-size: 18px;
+  line-height: 1.5;
 }
 
 /*
@@ -369,39 +370,6 @@ desktop shortcuts
   position: relative;
   left: -15px;
   top: 5px;
-}
-
-.short-cut-wrapper .angular {
-  margin-top: 25px;
-  cursor: pointer;
-}
-
-.short-cut-wrapper .angular .angular-text {
-  color: #d1d5da;
-  position: relative;
-  left: 3px;
-}
-
-.short-cut-wrapper .react {
-  margin-top: 25px;
-  cursor: pointer;
-}
-
-.short-cut-wrapper .react .react-text {
-  color: #d1d5da;
-  position: relative;
-  left: 7px;
-}
-
-.short-cut-wrapper .vue {
-  margin-top: 25px;
-  cursor: pointer;
-}
-
-.short-cut-wrapper .vue .vue-text {
-  color: #d1d5da;
-  position: relative;
-  left: 13px;
 }
 
 .short-cut-wrapper .cursor {
