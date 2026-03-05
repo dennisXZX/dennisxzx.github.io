@@ -24,9 +24,12 @@ title: me
         <a href="https://www.stake.com.au/" target="_blank">Stake - Investing Platform</a> (Ionic)
     </li>
     <li>
-        <a href="https://www.budgetdirect.com.au/motorcycle-insurance.html" target="_blank">Budget Direct - Motorcycle Insurance Product</a> (Angular, Jest, Cypress)
+        <a href="https://www.budgetdirect.com.au/motorcycle-insurance.html" target="_blank">Budget Direct - Motorcycle Insurance Product</a> (Angular, Java Spring Boot, Jest, Cypress)
     </li>    
-        <li>
-        <a href="https://travelweekly.com.au/excite-holidays-collapses-leaving-many-agents-clients-stranded/" target="_blank">Excited Holidays</a> (Angular, Knockout.js, PHP)
-    </li>    
+    <li>
+        <a href="https://travelweekly.com.au/excite-holidays-collapses-leaving-many-agents-clients-stranded/" target="_blank">Excited Holidays</a> (Angular, Vue, Knockout.js, PHP)
+    </li>
+    <li>
+        Study Group - <a href="https://www.bellerbysglobal.com/" target="_blank">Bellerbys College</a>, <a href="https://www.taylorssydney.edu.au/" target="_blank">Taylors College</a> (jQuery, RedDot, C#)
+    </li>  
 </ul>
