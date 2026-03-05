@@ -1,6 +1,6 @@
 ## Personal website
 
-Powered by Jekyll
+Powered by Jekyll and (mostly) AI
 
 #### Steps
 
