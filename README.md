@@ -1,6 +1,6 @@
 ## Personal website
 
-Powered by Jekyll and (mostly) AI, with a cup of flatwhite.
+Powered by Jekyll and (mostly) AI, with a cup of ☕ (flatwhite).
 
 #### Local setup
 
